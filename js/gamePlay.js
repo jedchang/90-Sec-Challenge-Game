@@ -36,7 +36,7 @@ const gamePlay = {
     this.load.image('lv3obstacle2', './images/block-Lv3-fire-sm.png');
     this.load.image('lv3obstacle3', './images/block-Lv3-fire-sm.png');
 
-    this.timer = 3;
+    this.timer = 90;
     this.bgSpeed = 1.5;
     this.gameStop = false;
     this.gameOver = false;
