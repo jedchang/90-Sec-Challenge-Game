@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>90s Game</title>
+    <link rel="icon" href="./images/favicon.png" sizes="48x48" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap&subset=cyrillic" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #354739;
+        font-family: 'Roboto', sans-serif, 'Open Sans', 'Bad Script', cursive;
+        color: #333;
+      }
+      canvas {
+        display: block;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+  </body>
+  <script src="./js/lib/phaser.min.js"></script>
+  <script src="./js/keyFrame.js"></script>
+  <script src="./js/gameStart.js"></script>
+  <script src="./js/gamePlay.js"></script>
+  <script src="./js/gameFinish.js"></script>
+  <script src="./js/main.js"></script>
+</html>
